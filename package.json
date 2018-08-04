@@ -1,0 +1,53 @@
+{
+  "name": "lite-webpack-react-seed-project",
+  "version": "1.0.0",
+  "description": "Yet another lightweight Webpack/React seed project which aims to define best practices when it comes to structuring production web applications.",
+  "author": "Waleed Amjad",
+  "license": "GNU GPLv3",
+  "homepage": "https://github.com/sbm007/lite-webpack-react-seed-project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbm007/lite-webpack-react-seed-project.git"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server --hot --mode development",
+    "lint": "eslint ./src ; stylelint ./src",
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "jest --config ./jest.config.json --watch",
+    "build": "npm run lint && npm run test && webpack --mode production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.2.0",
+    "eslint-plugin-react": "^7.10.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.4.2",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "postcss-loader": "^2.1.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.3.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "stylelint": "^9.4.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "whatwg-fetch": "^2.0.4"
+  }
+}
