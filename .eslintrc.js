@@ -25,5 +25,10 @@ module.exports = {
     'semi': ['error', 'always'],
     'object-curly-spacing': ['error', 'always'],
     'comma-spacing': ['error', { 'before': false, 'after': true }]
+  },
+  'settings': {
+    'react': {
+      'version': '16.0',
+    }
   }
 };
