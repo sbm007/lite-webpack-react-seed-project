@@ -1,7 +1,7 @@
 # lite-webpack-react-seed-project
 Yet another lightweight Webpack/React seed project which aims to define best practices when it comes to structuring production web applications.
 
-*Last updated as of August 2018, see notes on [Maintenance](#maintenance) below.*
+*Last updated as of October 2018, see notes on [Maintenance](#maintenance) below.*
 
 ## Description
 
