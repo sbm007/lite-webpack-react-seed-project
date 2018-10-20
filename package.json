@@ -14,7 +14,7 @@
     "lint": "eslint ./src & stylelint ./src",
     "test": "jest --config ./jest.config.json",
     "test:watch": "jest --config ./jest.config.json --watch",
-    "build": "npm run lint && npm run test && webpack --mode production"
+    "build": "npm run lint && npm run test && cross-env NODE_ENV=production webpack --mode production"
   },
   "devDependencies": {
     "autoprefixer": "^9.2.1",
